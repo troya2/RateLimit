@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		217375241BA278DE0033461F /* RateLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 219E73031B27702C004AB616 /* RateLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		217375251BA278DE0033461F /* RateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C08FD91B28EC85005DDE76 /* RateLimit.swift */; settings = {ASSET_TAGS = (); }; };
-		2173752D1BA2791E0033461F /* PersistentRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173752C1BA2791E0033461F /* PersistentRateLimit.swift */; settings = {ASSET_TAGS = (); }; };
-		2173752E1BA2791E0033461F /* PersistentRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173752C1BA2791E0033461F /* PersistentRateLimit.swift */; settings = {ASSET_TAGS = (); }; };
-		2173752F1BA2791E0033461F /* PersistentRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173752C1BA2791E0033461F /* PersistentRateLimit.swift */; settings = {ASSET_TAGS = (); }; };
+		217375251BA278DE0033461F /* RateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C08FD91B28EC85005DDE76 /* RateLimit.swift */; };
+		2173752D1BA2791E0033461F /* PersistentRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173752C1BA2791E0033461F /* PersistentRateLimit.swift */; };
+		2173752E1BA2791E0033461F /* PersistentRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173752C1BA2791E0033461F /* PersistentRateLimit.swift */; };
+		2173752F1BA2791E0033461F /* PersistentRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173752C1BA2791E0033461F /* PersistentRateLimit.swift */; };
 		219E73041B27702C004AB616 /* RateLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 219E73031B27702C004AB616 /* RateLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		219E730B1B27702C004AB616 /* RateLimit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219E73001B27702C004AB616 /* RateLimit.framework */; };
 		21B1083B1B279A4F003693A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B1083A1B279A4F003693A7 /* AppDelegate.swift */; };
@@ -321,9 +321,11 @@
 					};
 					219E72FF1B27702C004AB616 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					219E73091B27702C004AB616 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					21B108371B279A4F003693A7 = {
 						CreatedOnToolsVersion = 7.0;
@@ -635,6 +637,7 @@
 				PRODUCT_NAME = RateLimit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				WARNING_CFLAGS = (
 					"-Weverything",
 					"-Wno-missing-variable-declarations",
@@ -659,6 +662,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.RateLimit;
 				PRODUCT_NAME = RateLimit;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				WARNING_CFLAGS = (
 					"-Weverything",
 					"-Wno-missing-variable-declarations",
@@ -675,6 +679,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.RateLimitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -686,6 +691,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.RateLimitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
